@@ -171,8 +171,8 @@ class Student extends Lambdasian {
      this.favSubjects = attrs.favSubjects;
    }
    listSubjects() {
-     return `Loving ${this.favSubjects.map(function (item){
-       return `${item}`
+     return `Loving${this.favSubjects.map(function (item){
+       return ` ${item}`;
      })}`;
      }
    PRAssignment(subject) {
